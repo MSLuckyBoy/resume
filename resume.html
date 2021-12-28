@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <base target="_blank">
+</head>
+<body>
+    <div class="dblock"></div>
+    <header class="header">
+        <div class="qwer">
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+            <nav class="nav_link">
+                <ul>
+                    <li>
+                        <a href="#contacts" data-id="contact_title" target="_self">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#skills" data-id="skills_title" target="_self">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#languages" data-id="lang_title" target="_self">Languages</a>
+                    </li>
+                    <li>
+                        <a href="#about_me" data-id="about_title" target="_self">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#experince" data-id="exp_title" target="_self">Experince</a>
+                    </li>
+                    <li>
+                        <a href="#education" data-id="edu_title" target="_self">Education</a>
+                    </li>
+                    <li>
+                        <a href="#awards" data-id="aw_title" target="_self">Awards</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="langSettting">
+                <a href="#en" language="en" target="_self" class="active">ENG</a>
+                <a href="#ru" language="ru" target="_self">RUS</a>
+                <a href="#uz" language="uz" target="_self">UZB</a>
+            </div>
+            <a href="pdf/resume_en.pdf" id="resume_link" download="Resume" target="_self">
+                <i class="fa fa-download"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="side-bar">
+        <div class="close-btn">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="menu">
+            <div class="item">
+                <a href="#contacts" data-id="contact_title" target="_self">Contacts</a>
+            </div>
+            <div class="item">
+                <a href="#skills" data-id="skills_title" target="_self">Skills</a>
+            </div>
+            <div class="item">
+                <a href="#languages" data-id="lang_title" target="_self">Languages</a>
+            </div>
+            <div class="item">
+                <a href="#about_me" data-id="about_title" target="_self">About Me</a>
+            </div>
+            <div class="item">
+                <a href="#experince" data-id="exp_title" target="_self">Experince</a>
+            </div>
+            <div class="item">
+                <a href="#education" data-id="edu_title" target="_self">Education</a>
+            </div>
+            <div class="item">
+                <a href="#awards" data-id="aw_title" target="_self">Awards</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <div class="image">
+                        <img src="img/avatar.jpg" alt="avatar">
+                    </div>
+                    <h2 class="name" id="full_name">Shukhrat Maksudov</h2>
+                    <p class="career">Software Engineer</p>
+                </div>
+                <div class="contact-info lsect" id="contacts">
+                    <h3 class="main-title" id="contact_title">Contact Info</h3>
+                    <ul class="links">
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+998942148873" target="_self">+998 94 214 88 73</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="mailto:mshukhrat707@gmail.com">mshukhrat707@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-github"></i>
+                            <a href="https://github.com/MSLuckyBoy">github.com/MSLuckyBoy</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-twitter"></i>
+                            <a href="https://twitter.com/MS_LuckyBoy">twitter.com/MS_LuckyBoy</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/profile.php?id=100076283469516">www.facebook.com/profile.php?id=100076283469516</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                            <a href="https://www.instagram.com/ms.luckyboy">www.instagram.com/ms.luckyboy</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-telegram"></i>
+                            <a href="https://t.me/MS_LuckyBoy">t.me/MS_LuckyBoy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section lsect" id="skills">
+                    <h3 class="main-title" id="skills_title">Skills</h3>
+                    <ul>
+                        <li>
+                            <p class="progress-title">Python</p>
+                            <div class="progress-bar">
+                                <div class="progress py-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Django</p>
+                            <div class="progress-bar">
+                                <div class="progress dj-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">JavaScript</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">HTML / CSS</p>
+                            <div class="progress-bar">
+                                <div class="progress html_css-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Git</p>
+                            <div class="progress-bar">
+                                <div class="progress git-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Blender 3D</p>
+                            <div class="progress-bar">
+                                <div class="progress blend-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Unity 3D</p>
+                            <div class="progress-bar">
+                                <div class="progress unity-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">C#</p>
+                            <div class="progress-bar">
+                                <div class="progress c_sharp-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Adobe Photoshop</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="progress-title">Word / Exel</p>
+                            <div class="progress-bar">
+                                <div class="progress ms_office-progress"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skills-section lsect" id="languages">
+                    <h3 class="main-title" id="lang_title">Languages</h3>
+                    <div>
+                        <h6 class="sub-title" id="lang_uz">Uzbek</h6>
+                        <ul>
+                            <li>
+                                <p class="progress-title">Speaking</p>
+                                <div class="progress-bar">
+                                    <div class="progress uz_s-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Listening</p>
+                                <div class="progress-bar">
+                                    <div class="progress uz_l-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Reading</p>
+                                <div class="progress-bar">
+                                    <div class="progress uz_r-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Writing</p>
+                                <div class="progress-bar">
+                                    <div class="progress uz_w-progress"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="sub-title" id="lang_ru">Russian</h6>
+                        <ul>
+                            <li>
+                                <p class="progress-title">Speaking</p>
+                                <div class="progress-bar">
+                                    <div class="progress ru_s-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Listening</p>
+                                <div class="progress-bar">
+                                    <div class="progress ru_l-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Reading</p>
+                                <div class="progress-bar">
+                                    <div class="progress ru_r-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Writing</p>
+                                <div class="progress-bar">
+                                    <div class="progress ru_w-progress"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h6 class="sub-title" id="lang_en">English</h6>
+                        <ul>
+                            <li>
+                                <p class="progress-title">Speaking</p>
+                                <div class="progress-bar">
+                                    <div class="progress en_s-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Listening</p>
+                                <div class="progress-bar">
+                                    <div class="progress en_l-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Reading</p>
+                                <div class="progress-bar">
+                                    <div class="progress en_r-progress"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="progress-title">Writing</p>
+                                <div class="progress-bar">
+                                    <div class="progress en_w-progress"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about sect" id="about_me">
+                    <h2 class="right-title" id="about_title">About Me</h2>
+                    <p class="para" id="about_text">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Hello! My name is Shukhrat and I am 21 years old. I have been involved in programming for 2 years. My main programming language is python. I use the Python programming language to backend the websites and program various Telegram bots. I use Django freamwork when programming the backend part. Sometimes I also do freelancing.
+                        <br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;I also do 3D modeling and Game creation. I can work with programs like Blender and Unity. Basically I am very interested in creating mobile games!
+                    </p>
+                </section>
+
+                <section class="experince sect" id="experince">
+                    <h2 class="right-title" id="exp_title">Experience</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="exp-1-1">"O'zbekiston Temir Yo'llari"</h5>
+                            <p class="para" id="exp-1-2">2018 - 2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="exp-1-3">Cargo Receptionist</h5>
+                                <p class="para" id="exp-1-4">
+                                    -
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="exp-2-1">Freelancer</h5>
+                            <p class="para" id="exp-2-2">2020 - Present</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="exp-2-3">Web Developer</h5>
+                                <p class="para" id="exp-2-4">
+                                    I run my freelancing business at Freelancehunt.com. To date, I have successfully completed several Telegram bots and one web site.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="education sect" id="education">
+                    <h2 class="right-title" id="edu_title">education</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="edu-1-1">Tashkent Vocational College of Railway Transport</h5>
+                            <p class="para" id="edu-1-2">2016 - 2019</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="edu-1-3">Movement organization and management specialist</h5>
+                                <p class="para" id="edu-1-4">
+                                    -
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="edu-2-1">Tashkent University of Information Technologies</h5>
+                            <p class="para" id="edu-2-2">2019 - 2021</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="edu-2-3">Software engineering</h5>
+                                <p class="para" id="edu-2-4">
+                                    After successfully completing the 2nd year, I left the university voluntarily in December 2021.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="awards sect" id="awards">
+                    <h2 class="right-title" id="aw_title">Awards</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="aw-1-1">One million Uzbek coders & Udacity</h5>
+                            <p class="para" id="aw-1-2">December 2021</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="aw-1-3">Full Stack Development Track</h5>
+                                <a href="certificate/Udacity_Graduation_Certificate.pdf" target="_blank">
+                                    <img class="certificate" src="certificate/1.jpg" alt="certificate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title" id="aw-2-1">One million Uzbek coders & Udacity</h5>
+                            <p class="para" id="aw-2-2">December 2021</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2" id="aw-2-3">Full Stack Development Track (Completed)</h5>
+                                <a href="certificate/Udacity_Graduation_Certificate(complated).pdf" target="_blank">
+                                    <img class="certificate" src="certificate/2.jpg" alt="certificate">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/buttons.js"></script>
+    <script src="js/marker.js"></script>
+    <script src="js/languages.js"></script>
+</body>
+</html>
